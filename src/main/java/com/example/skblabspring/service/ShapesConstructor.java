@@ -10,7 +10,6 @@ public class ShapesConstructor {
     private Shape shapeRectangle;
     private Shape shapeCircle;
 
-    @Autowired
     public ShapesConstructor(@Qualifier("rectangleSample") Shape rectangle,
                             @Qualifier("circleSample") Shape circle) {
         this.shapeRectangle = rectangle;

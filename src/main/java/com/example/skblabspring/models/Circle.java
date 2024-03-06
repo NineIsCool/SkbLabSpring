@@ -15,12 +15,12 @@ public class Circle implements Shape {
     private int radius;
 
     @Override
-    public double Area() {
+    public double area() {
         return Math.PI * radius * radius;
     }
 
     @Override
-    public double Perimeter() {
+    public double perimeter() {
         return 2 * Math.PI * radius;
     }
 

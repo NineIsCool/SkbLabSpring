@@ -16,12 +16,12 @@ public class Rectangle implements Shape {
     private int width;
 
     @Override
-    public double Area() {
+    public double area() {
         return height * width;
     }
 
     @Override
-    public double Perimeter() {
+    public double perimeter() {
         return 2 * (height + width);
     }
 
